@@ -1,0 +1,5 @@
+We need to create a stack.
+
+Conceptually, pick two addresses in memory space and set the initial stack pointer to the first address.
+
+Conventionally, stack grows toward lower addresses. In practice, we can create such a stack, called a descending stack, by pointing the initial stack pointer to the higher and second address.
